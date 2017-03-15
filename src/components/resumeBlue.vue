@@ -274,7 +274,7 @@ color:#fff;
 #content{
 	padding:10px 40px;
 }
-.top:after{content:'';display:block;height:0;clear:both}
+.top:after,#content:after{content:'';display:block;height:0;clear:both}
 .detailImg img{
 	float: left;
 	width: 20px;
