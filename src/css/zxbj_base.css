@@ -1,0 +1,428 @@
+
+.left{float: left;}
+.right{float: right;}
+
+/**提示文字获取焦点后消失*/
+::-webkit-input-placeholder{color:#BDBDBD;}
+::-moz-placeholder{color:#BDBDBD;}
+:-moz-placeholder{color:#BDBDBD;}
+:-ms-input-placeholder {color:#BDBDBD;}
+input:focus::-webkit-input-placeholder{color:transparent;}
+input:focus::-moz-placeholder{color:transparent;}
+input:focus:-moz-placeholder{color:transparent;}
+input:focus:-ms-input-placeholder{color:transparent;}
+
+/** 分页符 */
+.resumePageBreak{position:absolute;width:100%;height:1px;background:transparent;left:0;border-bottom:1px dashed #6983e4;}
+.resumePageBreak span{display:block;width:14rem;color:#fff;position:absolute;height:3rem;line-height:2.9rem;top:-1.5rem;text-align:center;left:50%;margin-left:-7rem;background:linear-gradient(to bottom,#fff,#fff,#f1f1f1);background:-webkit-linear-gradient(to bottom,#fff,#fff,#f1f1f1);border-radius:50px;border:1px dashed #6983e4;color:#6983E4;}
+
+
+
+.pop-layer-box {position:fixed;z-index:9999;color:#d3d3d3;font-size:18px;padding:20px 41px;background-color:#646464;border-radius:3px;width:400px;text-align:center;left:0;right:0;margin:auto;top:30%;display:none;opacity:0;}
+
+.edit-maincont .baseStyle .divRight{z-index:auto}
+.edit-maincont .baseStyle .divLeft{z-index:auto}
+/************************************** 编辑样式 ************************************/
+/**剪切预览*/
+#head_area .head_image{text-align:center;}
+#head_area .head_image img{max-width:300px;max-height:300px;}
+#image_area .image_image{text-align:center;}
+#image_area .image_image img{max-width:300px;max-height:300px;}
+
+
+s
+
+/** 图片 */
+.resume_image{width:auto;height:auto;top:0;left:0;}
+.resume_image:hover{border:2px solid #4dafda;}
+.resume_image .ui-icon-gripsmall-diagonal-se{display:none !important;}
+.resume_image:hover .ui-icon-gripsmall-diagonal-se{display:block !important;}
+.resume_image img{display:block;width:100%;height:100%}
+.resume_image_radius img{border-radius:50%;}
+.resume_textarea{top:200px;left:60%;}
+.resume_textarea div.textarea{background:#none;font-size:16px;width:100%;height:100%;}
+.resume_textarea:hover div.textarea{border:2px solid #4dafda;background:#fff;}
+.resume_textarea.on div.textarea{border:2px solid #4dafda;background:#fff;}
+.resume_textarea .ui-icon-gripsmall-diagonal-se{display:none !important;}
+.resume_textarea:hover .ui-icon-gripsmall-diagonal-se{display:block !important;}
+/**z-index*/
+header{z-index:20001;}
+.baseditBar{z-index:20000;}
+.modal{z-index:50000;}
+.modal-backdrop.in{z-index:49999;}
+.table{position:absolute;padding:10px;width:222px;height:222px;border:1px solid #ccc;background:#fff;overflow:hidden;max-width:222px;}
+.table span{width:10px;height:10px;display:block;float:left;background:#f0f0f0;margin:5px;cursor:pointer;}
+table{width:100%;}
+table td{border:1px solid #ddd;line-height:33px;height:33px;padding:2px; width:auto;}
+/************************************** 编辑样式 ************************************/
+
+.baseditBar .fixBar{width:128px;height:95px;position: absolute;background:#F7F7F7;border:1px solid #dcdcdc;padding:0 15px;}
+.baseditBar .fixBar .editBox{padding-top:13px;}
+.baseditBar .fixBar .edBtn{display:block;cursor:pointer;width:20px;width:20px;margin:5px 12px;float:left;}
+
+/*保存导出模板*/
+.baseditBar .mobanBar .saveBtn{width:22px;height:20px;background-position:2px -90px;margin-bottom:12px;}
+.baseditBar .mobanBar .importBtn{width:20px;height:20px;background-position: -56px -90px;}
+.baseditBar .mobanBar .impdfBtn{width:24px;height:20px;background-position: -115px -90px;margin-bottom:12px;}
+.baseditBar .mobanBar .prevBtn{width:16px;height:20px;background-position:-173px -92px;margin-right: 5px;}
+.baseditBar .mobanBar .nextBtn{width:16px;height:20px;background-position:-198px -92px;}
+
+/*语言选择*/
+.baseditBar .mobanBar .editBox .langBtn{height:20px;background-position: 0px -90px;padding-left:22px;}
+.baseditBar .mobanBar .editBox .langBox{}
+.baseditBar .mobanBar .editBox .langBox span{background-position:0px -127px;width:15px;height:14px;float: left;margin-right:5px;}
+.baseditBar .mobanBar .editBox .langFrom{float: left;}
+.baseditBar .mobanBar .editBox .langFrom label{margin-right:10px;padding-top: 2px;}
+.baseditBar .mobanBar .editBox .langFrom label input{float: left;}
+
+/*内容模块*/
+.baseditBar .mobanBar .editBox .nrmkBox span{background-position:-88px -127px;width:16px;height:14px;float: left;margin-right:5px;}
+.baseditBar .mobanBar .editBox .nrmkBtn{float: left;padding-top: 2px;position: relative;}
+.baseditBar .mobanBar .editBox .nrmkBtn .more{width:22px;height:38px;border-left:1px solid #ebebeb;border-right:1px solid #ebebeb;float: left;margin-top: -11px;background-position: -292px -119px;cursor: pointer;}
+.baseditBar .mobanBar .editBox .nrmkList{overflow:hidden;float: left;}
+.baseditBar .mobanBar .editBox .nrmkList li{float: left;margin-right:20px;font-size:12px;}
+.baseditBar .mobanBar .editBox .nrmkList li span{width:16px;height:16px;float: left;background-position: -155px -125px;display: inline-block;margin-right:7px;}
+.baseditBar .mobanBar .editBox .nrmkList li span.checked{background-position: -120px -125px;}
+.baseditBar .mobanBar .editBox .addBtn{width:113px;height:36px;background:#f6f6f6;float: left;margin:-10px -8px 0 1px;line-height: 36px;color:#fd8655;cursor: pointer;}
+.baseditBar .mobanBar .editBox .addBtn span{width:18px;height:100%;float: left;background-position: -235px -116px;margin:0 8px 0 14px;}
+.baseditBar .mobanBar .editBox .otherList{position: absolute;top: 29px;background: #fff;padding: 6px 0 0 10px;left: -11px;width: 558px;border-bottom: 1px solid #ececec;border-left: 1px solid #ececec;border-right: 1px solid #ececec;}
+.baseditBar .mobanBar .editBox .otherList .nrmkList li{margin-bottom:15px;}
+.baseditBar .mobanBar .editBox .nrmkBtn .dropdown{float:left;}
+.baseditBar .mobanBar .editBox .nrmkBtn .dropdown-menu{border-top:none;box-shadow:none;border-radius:0px;top: 25px;left: -557px;}
+
+
+/*字体编辑*/
+.baseditBar .editBar .editBox .edBtn{float: left;}
+.baseditBar .editBar .editBox .edBtn.selected{background-color:#F0F0F0;}
+.baseditBar .editBar .editBox .fontstyBox{line-height:22px;margin-top:0px;}
+.baseditBar .editBar .editBox .fontstyBox span{background-position: -36px -161px;width:23px;height:20px;float: left;margin-right:5px;}
+.baseditBar .editBar .editBox .ffamSelect,.baseditBar .editBar .editBox .fsizeSelect{float: left;position: relative;margin-right:10px;}
+.baseditBar .editBar .editBox .ffamSelect select,.baseditBar .editBar .editBox .fsizeSelect select{border:1px solid #c8cede;padding:1px 5px;}
+.baseditBar .editBar .editBox .a_fontdown{border:1px solid #c8cede;height:22px;line-height:21px;background:none;padding:0 5px;position:relative;}
+.baseditBar .editBar .editBox .a_fontdown:hover{background-color:#e9efff;}
+.baseditBar .editBar .editBox .a_fontdown a{color:#3b3b3b;}
+.baseditBar .editBar .editBox .a_fontdown .dropdown-menu{text-align: center;top: 26px;left: -29px;min-width:112px;}
+.baseditBar .editBar .editBox .fbigBtn{width:20px;height:20px;background-position: 1px -220px;}
+.baseditBar .editBar .editBox .fsmallBtn{width:20px;height:20px;background-position:-23px -220px;}
+.baseditBar .editBar .editBox .fstrongBtn{width:20px;height:20px;background-position: -47px -219px;}
+.baseditBar .editBar .editBox .fitalicBtn{width:20px;height:20px;background-position: -70px -219px;}
+.baseditBar .editBar .editBox .funlineBtn{width:20px;height:20px;background-position: -92px -219px;}
+.baseditBar .editBar .editBox .fcolorBtn{width:22px;height:20px;background-position: -117px -220px;position: relative;}
+.baseditBar .editBar .editBox .fcolorBtn input[type="color"]{opacity:0;position:absolute;width:100%;height:100%;z-index:100;padding:0;border:0;display:block;}
+.baseditBar .editBar .editBox .fcolorBtn p{position:absolute;border-bottom-style:solid;border-bottom-width:2px;width: 55%;bottom: 2px;}
+.baseditBar .editBar .editBox .fcolorBtn #colorSelector{width:22px;height:25px;}
+.baseditBar .editBar .editBox .fcolorBtn .colorSelector{position:absolute;top:16px;width:12px;height:2px;}
+.baseditBar .editBar .editBox .fclearBtn{width:86px;height:20px;line-height: 18px;background-position:8px -248px;border:1px solid #c8cede;background-color:#e9efff;padding-left:29px;float: left;}
+.baseditBar .editBar .editBox .fformatBtn{width:76px;height:20px;background-position:8px -269px;border:1px solid #c8cede;background-color:#fff;line-height: 18px;padding-left:29px;float: left;}
+
+/*段落编辑*/
+.baseditBar .editBar .editBox .paragraphBox{line-height:22px;margin-top:0px;}
+.baseditBar .editBar .editBox .paragraphBox span{background-position: 0px -294px;width: 30px;height:20px;float: left;margin-right:5px;}
+.baseditBar .editBar .paragraphbox .edBtn:hover{background-color:#b8c9e9;}
+.baseditBar .editBar .paragraphbox .edBtn.selected{background-color:#b8c9e9;}
+.baseditBar .editBar .editBox .graleftBtn{width:20px;height:20px;background-position: -49px -295px;}
+.baseditBar .editBar .editBox .gracenterBtn{width:20px;height:20px;background-position: -77px -295px;}
+.baseditBar .editBar .editBox .grarightBtn{width:20px;height:20px;background-position: -104px -295px;}
+.baseditBar .editBar .editBox .graulBtn{width:30px;height:20px;background-position: -135px -296px;}
+.baseditBar .editBar .editBox .graolBtn{width:30px;height:20px;background-position: -180px -296px;}
+.baseditBar .insertBar .editBox{padding-top: 10px;}
+.baseditBar .insertBar .editBox .edBtn{padding-left:23px;height:18px;}
+.baseditBar .insertBar .editBox .inpicBtn{background-position: 0px -338px;}
+.baseditBar .insertBar .editBox .chpicBtn{background-position: -110px -338px;}
+.baseditBar .insertBar .editBox .repicBtn{background-position: -219px -337px;}
+.baseditBar .insertBar .editBox .intextBtn{background-position:-344px -337px;}
+.baseditBar .textBar .editBox .picborBox span{background-position:-343px -388px;width:17px;height:17px;float: left;margin-right:5px;}
+.baseditBar .textBar .editBox .picborList{float: left;margin-top: -5px;}
+.baseditBar .textBar .editBox .picborList .borbtn{float: left;width:30px;height:30px;margin:0 8px;cursor: pointer;position: relative;}
+.baseditBar .textBar .editBox .picborList .borcolor{background-position: 4px -440px;position: relative;}
+.baseditBar .textBar .editBox .picborList .borcolor input{opacity:0;cursor: pointer;}
+.baseditBar .textBar .editBox .picborList .borcolor p{position: absolute;border-bottom-style: solid;border-bottom-width: 2px;width: 50%;bottom: 8px;left: 3px;}
+.baseditBar .textBar .editBox .picborList .borsize{background-position:-35px -440px;}
+.baseditBar .textBar .editBox .picborList .borsize .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .textBar .editBox .picborList .borstyle{background-position:-75px -440px;}
+.baseditBar .textBar .editBox .picborList .borsizelist{width:137px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position:relative;top:33px;left:-67px;z-index:999;}
+.baseditBar .textBar .editBox .picborList .borsizelist span{width:70px;background:#000;display:inline-block;margin:0 10px;}
+.baseditBar .textBar .editBox .picborList .borsizelist div{padding: 5px 2px;font-size:12px;color:#5e5e5e;}
+.baseditBar .textBar .editBox .picborList .borsizelist div i{text-align: right;width:40px;display:inline-block;font-style: normal;}
+.baseditBar .textBar .editBox .picborList .borsizelist div:hover{background:#dee5f8;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-0-5{height:0.5pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-1{height:1pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-1-5{height:1.5pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-2{height:2pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-2-5{height:2.5pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-3{height:3pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-3-5{height:3.5pt;}
+.baseditBar .textBar .editBox .picborList .borsizelist span.height-4{height:4pt;}
+.baseditBar .textBar .editBox .picborList .borstyle .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .textBar .editBox .picborList .borstylelist{width:90px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position: absolute;top:33px;left:-66px;z-index:999;}
+.baseditBar .textBar .editBox .picborList .borstylelist span{width:70px;display:inline-block;margin:0 10px;height:3px;}
+.baseditBar .textBar .editBox .picborList .borstylelist div{padding: 5px 22px;font-size:12px;color:#5e5e5e;}
+.baseditBar .textBar .editBox .picborList .borstylelist div:hover{background:#dee5f8;}
+.baseditBar .textBar .editBox .picborList .borstylelist span.solid{border-bottom:1px solid #000;}
+.baseditBar .textBar .editBox .picborList .borstylelist span.dashed{border-bottom:1px dashed #000;}
+.baseditBar .textBar .editBox .picborList .borstylelist span.dotted{border-bottom:1px dotted #000;}
+.baseditBar .textBar .editBox .picborList .borstylelist i{font-style:normal;}
+.baseditBar .textBar .editBox .picsizeBox span{background-position: 0px -503px;width:23px;height:21px;float: left;margin-right:5px;margin-top: -4px;}
+.baseditBar .textBar .editBox .picsizeList{float: left;}
+.baseditBar .textBar .editBox .picsizeList ul li{float: left;}
+.baseditBar .textBar .editBox .picsizeList ul li label{margin-top:-10px;}
+.baseditBar .textBar .editBox .picsizeList ul li input{margin:0 10px;border:1px solid #c8cede;color:#616b88;height:24px;width:80px;text-align: center;}
+.baseditBar .picBar .editBox{padding-top: 10px;}
+.baseditBar .picBar .editBox .edBtn{padding-left:23px;height:18px;}
+.baseditBar .picBar .editBox .chpicBtn{background-position: -110px -338px;}
+.baseditBar .picBar .editBox .picstyBox span{background-position: -118px -390px;width:17px;height:17px;float: left;margin-right:5px;}
+.baseditBar .picBar .editBox .picstyList{float: left;margin-top: -5px;}
+.baseditBar .picBar .editBox .picstyList ul li{float: left;width:30px;height:30px;margin:0 5px;cursor: pointer;}
+.baseditBar .picBar .editBox .picstyList ul li:hover{opacity: 0.8;}
+.baseditBar .picBar .editBox .picstyList ul li.round{background-position: -180px -381px;}
+.baseditBar .picBar .editBox .picstyList ul li.rectangle{background-position: -231px -381px;}
+.baseditBar .picBar .editBox .picstyList ul li.sixangle{background-position: -281px -381px;}
+.baseditBar .picBar .editBox .picborBox span{background-position:-343px -388px;width:17px;height:17px;float: left;margin-right:5px;}
+.baseditBar .picBar .editBox .picborList{float: left;margin-top: -5px;}
+.baseditBar .picBar .editBox .picborList .borbtn{float: left;width:30px;height:30px;margin:0 8px;cursor: pointer;position: relative;}
+.baseditBar .picBar .editBox .picborList .borcolor{background-position: 4px -440px;position: relative;}
+.baseditBar .picBar .editBox .picborList .borcolor input{opacity:0;cursor: pointer;}
+.baseditBar .picBar .editBox .picborList .borcolor p{position: absolute;border-bottom-style: solid;border-bottom-width: 2px;width: 50%;bottom: 8px;left: 3px;}
+.baseditBar .picBar .editBox .picborList .borsize{background-position:-35px -440px;}
+.baseditBar .picBar .editBox .picborList .borsize .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .picBar .editBox .picborList .borstyle{background-position:-75px -440px;}
+.baseditBar .picBar .editBox .picborList .borsizelist{width:137px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position:relative;top:33px;left:-67px;z-index:999;}
+.baseditBar .picBar .editBox .picborList .borsizelist span{width:70px;background:#000;display:inline-block;margin:0 10px;}
+.baseditBar .picBar .editBox .picborList .borsizelist div{padding: 5px 2px;font-size:12px;color:#5e5e5e;}
+.baseditBar .picBar .editBox .picborList .borsizelist div i{text-align: right;width:40px;display:inline-block;font-style: normal;}
+.baseditBar .picBar .editBox .picborList .borsizelist div:hover{background:#dee5f8;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-0-5{height:0.5pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-1{height:1pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-1-5{height:1.5pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-2{height:2pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-2-5{height:2.5pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-3{height:3pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-3-5{height:3.5pt;}
+.baseditBar .picBar .editBox .picborList .borsizelist span.height-4{height:4pt;}
+.baseditBar .picBar .editBox .picborList .borstyle .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .picBar .editBox .picborList .borstylelist{width:90px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position: absolute;top:33px;left:-66px;z-index:999;}
+.baseditBar .picBar .editBox .picborList .borstylelist span{width:70px;display:inline-block;margin:0 10px;height:3px;}
+.baseditBar .picBar .editBox .picborList .borstylelist div{padding: 5px 22px;font-size:12px;color:#5e5e5e;}
+.baseditBar .picBar .editBox .picborList .borstylelist div:hover{background:#dee5f8;}
+.baseditBar .picBar .editBox .picborList .borstylelist span.solid{border-bottom:1px solid #000;}
+.baseditBar .picBar .editBox .picborList .borstylelist span.dashed{border-bottom:1px dashed #000;}
+.baseditBar .picBar .editBox .picborList .borstylelist span.dotted{border-bottom:1px dotted #000;}
+.baseditBar .picBar .editBox .picborList .borstylelist i{font-style:normal;}
+.baseditBar .picBar .editBox .picsizeBox span{background-position: 0px -503px;width:23px;height:21px;float: left;margin-right:5px;margin-top: -4px;}
+.baseditBar .picBar .editBox .picsizeList{float: left;}
+.baseditBar .picBar .editBox .picsizeList ul li{float: left;}
+.baseditBar .picBar .editBox .picsizeList ul li label{margin-top:-10px;}
+.baseditBar .picBar .editBox .picsizeList ul li input{margin:0 10px;border:1px solid #c8cede;color:#616b88;height:24px;width:80px;text-align: center;}
+.baseditBar .iconBar .editBox{padding-top: 10px;}
+.baseditBar .iconBar .editBox .edBtn{padding-left:23px;height:18px;}
+.baseditBar .iconBar .editBox .chiconBtn{background-position:-474px -337px;}
+.baseditBar .iconBar .editBox .picsizeBox span{background-position: 0px -503px;width:23px;height:21px;float: left;margin-right:5px;margin-top: -4px;}
+.baseditBar .iconBar .editBox .picsizeList{float: left;}
+.baseditBar .iconBar .editBox .picsizeList ul li{float: left;}
+.baseditBar .iconBar .editBox .picsizeList ul li label{margin-top:-10px;}
+.baseditBar .iconBar .editBox .picsizeList ul li input{margin:0 10px;border:1px solid #c8cede;color:#616b88;height:24px;width:80px;text-align: center;}
+.baseditBar .borderBar .editBox{padding-top: 10px;}
+.baseditBar .borderBar .editBox .edBtn{padding-left:23px;height:18px;}
+.baseditBar .borderBar .editBox .borderBox span{background-position:-343px -388px;width:17px;height:17px;float: left;margin-right:5px;}
+.baseditBar .borderBar .editBox .borderList{float: left;margin-top: -5px;}
+.baseditBar .borderBar .editBox .borderList .borsize,.baseditBar .borderBar .editBox .borderList .borstyle{float: left;width:30px;height:30px;margin:0 8px;cursor: pointer;position: relative;}
+.baseditBar .borderBar .editBox .borderList .borcolor{background-position: 4px -440px;position: relative;}
+.baseditBar .borderBar .editBox .borderList .borcolor #colorSelector2{position: absolute;left:0px;top:2px;width:20px;height:30px;}
+.baseditBar .borderBar .editBox .borderList .borcolor .colorSelector2{position:absolute;top:20px;width:20px;height:3px;left:3px;}
+.baseditBar .borderBar .editBox .borderList .borsize{background-position:-35px -440px;}
+.baseditBar .borderBar .editBox .borderList .borsize .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .borderBar .editBox .borderList .borstyle{background-position:-75px -440px;}
+.baseditBar .borderBar .editBox .borderList .borsizelist{width:137px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position:relative;top:33px;left:-55px;z-index:999;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span{width:70px;background:#000;display:inline-block;margin:0 10px;}
+.baseditBar .borderBar .editBox .borderList .borsizelist li{padding: 5px 2px;font-size:12px;color:#5e5e5e;}
+.baseditBar .borderBar .editBox .borderList .borsizelist li i{text-align: right;width:40px;display:inline-block;font-style:normal;}
+.baseditBar .borderBar .editBox .borderList .borsizelist li:hover{background:#dee5f8;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-0-5{height:0.5pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-1{height:1pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-1-5{height:1.5pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-2{height:2pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-2-5{height:2.5pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-3{height:3pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-3-5{height:3.5pt;}
+.baseditBar .borderBar .editBox .borderList .borsizelist span.height-4{height:4pt;}
+.baseditBar .borderBar .editBox .borderList .borstyle .btn_{position:absolute;width:30px;height:30px;top:0px;left:0px;background:transparent;}
+.baseditBar .borderBar .editBox .borderList .borstylelist{width:90px;padding:20px 0;border:1px solid rgba(0,0,0,0.11);box-shadow:0 0 2px rgba(0,0,0,0.15);background:#fff;position: absolute;top:33px;left:-30px;z-index:999;}
+.baseditBar .borderBar .editBox .borderList .borstylelist span{width:70px;display:inline-block;margin:0 10px;height:3px;}
+.baseditBar .borderBar .editBox .borderList .borstylelist li{padding: 5px 0px;font-size:12px;color:#5e5e5e;}
+.baseditBar .borderBar .editBox .borderList .borstylelist li i{text-align: right;width:40px;display:inline-block;font-style:normal;}
+.baseditBar .borderBar .editBox .borderList .borstylelist li:hover{background:#dee5f8;}
+.baseditBar .borderBar .editBox .borderList .borstylelist span.solid{border-bottom:1px solid #000;}
+.baseditBar .borderBar .editBox .borderList .borstylelist span.dashed{border-bottom:1px dashed #000;}
+.baseditBar .borderBar .editBox .borderList .borstylelist span.dotted{border-bottom:1px dotted #000;}
+.baseditBar .borderBar .editBox .bordersizeBox span{background-position: 0px -503px;width:23px;height:21px;float: left;margin-right:5px;margin-top: -4px;}
+.baseditBar .borderBar .editBox .bordersizeList{float: left;}
+.baseditBar .borderBar .picWidth{width:102px;}
+
+
+
+
+/*弹窗居中*/
+#myModalIcon .modal-dialog{width:666px;position:absolute;left:50%; top:50%;margin-top:-269px; margin-left:-333px;}
+#myModalText .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -335px;margin-top: -200px;}
+#myModalHead .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -335px;margin-top: -225px;}
+#myModalnrmk .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -355px;margin-top: -272px;}
+#promptModal .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -330px;margin-top: -280px;}
+#suggestsModal .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -300px;margin-top:-189px;}
+#myModaldrmk .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -237px;margin-top: -143px;}
+#myModalPic .modal-dialog{top: 50%;position: absolute;left: 50%;margin-left: -335px;margin-top: -215px;}
+
+/*模板信息*/
+.mubaninfoBar{width:1100px;height:38px;border:1px solid #ebebeb;margin:0 auto;background:#fff;margin-top:0px;margin-bottom:8px;padding:0 10px;transition:all .3s;-webkit-transition:all .3s;-moz-transition:all .3s;}
+.mubaninfoBar ul li{line-height:38px;}
+.mubaninfoBar ul li span{color:#828282;font-size:12px;}
+.mubaninfoBar ul li.right span{margin-right:10px;}
+.mubaninfoBar ul li span i{color:#fd8655;font-style:normal;}
+.mubaninfoBar ul li span i a{color:#fd8655;}
+.mubaninfoBar ul li.left span{float: left;}
+.mubaninfoBar ul li.left span.notice{color:#fd8655;text-indent:2rem;}
+.mubaninfoBar ul li.left i{width:22px;height:21px;display: inline-block;float: left;margin-top: 9px;margin-left:5px;}
+.mubaninfoBar ul li.left i.pic{background-position: 0px -551px;}
+.mubaninfoBar ul li.left i.pdf{background-position: -31px -551px;}
+
+
+.mbarea{width:1230px;margin:0 auto;}
+
+/*最新在线编辑*/
+.baseStyle{width:1100px;box-shadow: 0 2px 4px rgba(0,0,0,0.2); padding-top:50px;position:relative;}
+.baseStyle input{font-size:inherit;background:none;border:none;width:inherit;height:inherit;font-weight:inherit;font-family:inherit;color:inherit;text-align:inherit;}
+.baseStyle .baseBorder{border:1px solid transparent;transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;}
+.baseStyle .baseBorder:hover{border:1px dashed rgba(141, 165, 252, 0.6);}
+.baseStyle .positonDiv{margin:20px 0;position: relative;border:1px dashed transparent;transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;padding: 2px 0 20px 0;}
+.baseStyle .positonDiv:hover{border:1px dashed rgba(141, 165, 252, 0.6);}
+.baseStyle .baseItem .editBtn{left:-36px;}
+.positonDiv .editBtn{width:30px;height: 100%;position:absolute;top:20px;left:-36px;display:block;opacity:0;filter: alpha(opacity=0);transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;}
+.positonDiv:hover .editBtn{opacity:1;filter: alpha(opacity=1);transform:translateY(-22px);-moz-transform:translateY(-22px);-webkit-transform:translateY(-22px);}
+.positonDiv .editBtn li{display:block;width:24px;height:24px;background-color:rgba(141, 165, 252, .5);border-radius:6px;margin-bottom:4px;}
+.positonDiv .editBtn li:hover{background-color:rgba(141, 165, 252,1);}
+.positonDiv .editBtn li.btnMove{background-position:5px -624px;}
+.positonDiv .editBtn li.btnPlus{background-position:-44px -624px;cursor:pointer;}
+.positonDiv .editBtn li.btnDel{background-position:-96px -625px;cursor:pointer;}
+.baseStyle .msgDiv .baseDel:hover .delete,.baseStyle .skillDiv .baseDel:hover .delete,.baseStyle .hobbyDiv .baseDel:hover .delete{display: none;}
+.baseStyle .baseBorder:focus,.baseStyle .baseBorder div:focus,.baseStyle .baseBorder input:focus{border: 1px solid #beccff;-moz-box-shadow: 0 0 4px #beccff;-webkit-box-shadow:inset 0 0 4px #ffba00;box-shadow: 0 0 4px #beccff;-webkit-user-select: none;transition:all 0.5s;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;box-shadow:0px 0px 5px rgba();}
+.baseStyle .skillDiv .skillUl li span{cursor: pointer;}
+.tooltip-inner{padding:7px 10px;max-width:220px;}
+
+/*拖拽*/
+.sortable-ghost{border:2px dashed rgba(141, 165, 252, .5);-moz-box-shadow: 0 0 4px rgba(141, 165, 252, .5);-webkit-box-shadow: 0 0 4px rgba(141, 165, 252, .5);box-shadow: 0 0 4px rgba(141, 165, 252, .5);-webkit-user-select: none;transition: all .5s;opacity:1;-webkit-transition: all .5s;}
+.sortable-ghost dl,.sortable-ghost .baseMsg,.sortable-ghost .skillUl{opacity:0;transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;}
+.sortable-ghost:active{display:none;}
+.sortable-ghost[draggable=true]{transition:all 0.3s;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-ms--transition:all 0.3s;border:1px dashed rgba(255, 162, 42,.8);;transform:translateY(-10px);}
+
+
+/*通用信息*/
+.baseStyle .headDiv{box-sizing: content-box;-moz-box-sizing: content-box;-webkit-box-sizing: content-box;}
+.baseStyle .baseItem{padding-bottom: 0;margin:0;}
+.baseStyle .baseItem dl{width:100%;overflow:hidden;}
+.baseStyle .baseItem dl dt{height:65px;line-height:65px;padding:0 35px;width:100%;overflow:hidden;}
+.baseStyle .baseItem dl dd{color:#254665;}
+.baseStyle .baseItem dl dt span{line-height:62px;font-weight:600;color:#000;float:left;padding-bottom:5px;display: inline-block;position: relative;}
+.baseStyle .baseItem dl dt span div.Border{position: absolute;top:50px;left: 0px;display: block;background:transparent;width:668px;cursor: pointer;border-top-style: solid;border-top-color:#000000;border-top-width:2px;}
+.baseStyle .baseItem dl dt a{display:inline-table;margin-right:6px;font-size:45px;vertical-align: middle;text-align: center;color: #254665;height:45px;float:left;}
+.baseStyle .baseItem .baseContent{margin-bottom:10px;margin: 0 40px;padding: 5px 0 5px 5px;}
+.baseStyle .baseItem .baseContent .conTitle{overflow: hidden;}
+.baseStyle .baseItem .baseContent .conTitle span{height:initial;line-height:initial;font-weight: normal;float:left;}
+.baseStyle .baseItem .baseContent .conTitle span.conTitle_time{width:190px;}
+.baseStyle .baseItem .baseContent .conTitle span.conTitle_company{width: 280px;}
+.baseStyle .baseItem .baseContent .conTitle span.conTitle_post{width: 240px;}
+.baseStyle .baseItem .baseContent .conDisc ol,.baseStyle .baseItem .baseContent .conDisc ul{padding-left:1.52em;}
+.baseStyle .fbottom_bg {z-index: 1;position: absolute;bottom: 0px;width: 1100px;left:0px;}
+
+/*默认字体大小*/
+.baseStyle .nameDiv h1{font-size:48px;}
+.baseStyle .nameDiv h2{font-size:18px;}
+.baseStyle .msgDiv .baseMsg{font-size: 16px;}
+.baseStyle .baseItem dl dt span{font-size:26px;}
+.baseStyle .baseItem dl dd{font-size: 16px;}
+
+
+
+/*****在线编辑*****/
+div[contenteditable] ul, div[contenteditable] ul li{list-style:disc;}
+div[contenteditable] ol, div[contenteditable] ol li{list-style:decimal;}
+div[contenteditable] ul,div[contenteditable] ol{ padding-left:1.52em}
+div[contenteditable] i,div[contenteditable] em{ font-style:italic}
+div[contenteditable] u,div[contenteditable] i u{ text-decoration:underline}
+div[contenteditable] ul li{ list-style:disc}
+div[contenteditable] ul{list-type: disc;}
+div[contenteditable] ol li{ list-style:decimal}
+div[contenteditable] ol{list-type: decimal;}
+::selection {background:rgba(76,179,221,.3); color:inherit;}
+::-moz-selection {background:rgba(76,179,221,.3); color:inherit;}
+::-webkit-selection {background:rgba(76,179,221,.3); color:inherit;} 
+
+.edit-maincont{ width: 1100px; margin: 0 auto; padding-top:88px;}
+.edit-maincont{font-family:Microsoft Yahei,arial, helvetica, sans-serif,"Hiragino Sans GB";}
+.edit-maincont .resume-info{ height: 50px; background: #fff4f2; line-height: 50px; border: 1px solid #efc7bf; font-size: 14px; padding: 0 18px; margin:12px 0;}
+.edit-maincont .resume-info .ltct{ color: #565656;}
+.edit-maincont .resume-info .ltct i{ padding-right: 20px;}
+.edit-maincont .resume-info .rtct{ color: #4dafda;}
+.edit-maincont .resume-info .rtct a{ color: #4cb3dd;}
+
+.edit-maincont .baseItem:hover{border-radius: 4px; background: #ddd;}
+.edit-maincont .resume_sort:hover{ border-radius: 4px; background:rgba(0,0,0,.2);}
+.edit-maincont .positonDiv.on{ z-index: 101;background: #fff; border-radius: 5px;}
+/*.edit-maincont .divLeft .positonDiv.on{z-index: 999; position: relative; width: 100%; background:rgba(0,0,0,.6); border-radius: 5px;}*/
+
+/*弹框背景*/
+.resumebg{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; right: 0; bottom: 0; background: #000; opacity: 0.5; z-index: 100;display: none;}
+.resumebg1{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; right: 0; bottom: 0; background: #000; z-index: 111; opacity: 0.6;display: none;}
+.resumebg2{ position: fixed; width: 100%; height: 100%; left: 0; top: 0; right: 0; bottom: 0; background: none; z-index: 100;}
+
+/*工具栏*/
+.resume-toolbar{width:400px; height:38px; background: #fff; z-index:25;position: absolute;padding: 0 16px; border-radius: 20px;border:2px solid #000;}
+.resume-toolbar .fontsize{width:85px; height:28px; line-height:28px; float:right; border:1px solid #e1e1e1}
+.resume-toolbar .barbtn{float: left; height: 22px; padding: 8px 0;}
+.resume-toolbar .barbtn a{display:block; float:left; text-align:center; font-size:15px; color:#000;font-weight:normal}
+.resume-toolbar .barbtn span{display:block; width:22px; height:22px; background:url(../images/icosz.png) no-repeat; margin-right:12px;}
+.resume-toolbar .barbtn span.bold{background-position:-89px -9px}
+.resume-toolbar .barbtn span.italic{background-position:-125px -9px}
+.resume-toolbar .barbtn span.underline{background-position:-163px -9px;}
+.resume-toolbar .barbtn span.bgcolor{background: none; margin:0 20px 0 10px; background:rgba(0,0,0,.1); color: #000;}
+.resume-toolbar .barbtn span.fontcolor{background-position:-255px -9px; width:30px; position:relative}
+.resume-toolbar .barbtn span.fontcolor em{display:block; width:18px; height:3px; overflow:hidden; position:absolute; background:#F00; top:18px; left:-2px;}
+.resume-toolbar .barbtn span.align-left{background-position:-92px -50px}
+.resume-toolbar .barbtn span.align-center{background-position:-148px -50px}
+.resume-toolbar .barbtn span.align-right{background-position:-210px -50px}
+.resume-toolbar .barbtn span.list-ul{background-position:-92px -89px}
+.resume-toolbar .barbtn span.list-ol{background-position:-182px -89px}
+.resume-toolbar .barbtn span.RemoveFormat{background-position:-270px -52px}
+.resume-toolbar .barbtn a:nth-child(9){display: none;}
+.resume-toolbar .barbtn a:nth-child(10){display: none;}
+.resume-toolbar .barbtn .mp{ margin: 0 3px;}
+.resume-toolbar .caret{ position:absolute; top:12px; right:8px;}
+.resume-toolbar .fontfamily{display: none;width:100px;margin-top: 4px; height:30px; line-height:30px; float:left; border:1px solid #e1e1e1; margin-right: 10px;}
+.resume-toolbar .dropdown-toggle{position:relative; display:block; padding-left:12px; height:30px; line-height:30px; font-size: 14px; color: #333;}
+.resume-toolbar .dropdown-menu{width:100%; min-width:100%}
+.resume-toolbar .fontsize{ display: none;float: left;margin-top: 4px; margin-right: 10px;height:30px; line-height:30px;width:50px; }
+
+
+/****取色**/
+.bigpicker{width:227px; height:163px; position: absolute; z-index: 999999; background-color: #F0F0F0; padding: 2px 0 1px 5px; border-left: solid 1px #CCCCCC; border-top: solid 1px #CCCCCC; border-right: solid 1px #565656; border-bottom: solid 1px #565656; display: none; box-sizing: content-box;}
+.bigpicker *{ box-sizing: content-box;}
+.bigpicker-sections-color{margin: 0; padding: 0;}
+.bigpicker-sections-color ul{margin: 0; padding: 0; float: left;}
+.bigpicker-sections-color ul li{list-style: none outside none; margin: 0; padding: 0; border-top:solid 1px #000000; border-left:solid 1px #000000; width:10px; height: 10px; overflow:hidden; line-height:0px; font-size:0px;	}
+.bigpicker .biglayout{width:10px; height:10px; border:solid 1px #FFFFFF; position: absolute; z-index: 10000; display: none; line-height: 10px; overflow: hidden; cursor: default;}
+.bigpicker-bgview-text{margin: 0; padding: 0; height: 24px;}
+.bigpicker-bgview-text li{padding: 0 5px 0 0 ; list-style: none outside none; float: left; line-height:18px;}
+.bigpicker-bgview-text li div{margin: 0; padding: 0; height: 20px; width: 55px; background-color: #000000; border-left: solid 1px #CCCCCC; border-top: solid 1px #CCCCCC; border-right: solid 1px #2B2B2B; border-bottom: solid 1px #2B2B2B;}
+.bigpicker-bgview-text li input{margin: 0; padding: 0; height: 17px; width: 55px;}
+.bigpicker-bgimage {
+    background-image: url(../images/big_bgcolor.jpg);
+}
+
+
+
+
+
+
+
+@-webkit-keyframes buzz-out{10%{-webkit-transform:translateX(3px) rotate(2deg);transform:translateX(3px) rotate(2deg)}20%{-webkit-transform:translateX(-3px) rotate(-2deg);transform:translateX(-3px) rotate(-2deg)}30%{-webkit-transform:translateX(3px) rotate(2deg);transform:translateX(3px) rotate(2deg)}40%{-webkit-transform:translateX(-3px) rotate(-2deg);transform:translateX(-3px) rotate(-2deg)}50%{-webkit-transform:translateX(2px) rotate(1deg);transform:translateX(2px) rotate(1deg)}60%{-webkit-transform:translateX(-2px) rotate(-1deg);transform:translateX(-2px) rotate(-1deg)}70%{-webkit-transform:translateX(2px) rotate(1deg);transform:translateX(2px) rotate(1deg)}80%{-webkit-transform:translateX(-2px) rotate(-1deg);transform:translateX(-2px) rotate(-1deg)}90%{-webkit-transform:translateX(1px) rotate(0);transform:translateX(1px) rotate(0)}100%{-webkit-transform:translateX(-1px) rotate(0);transform:translateX(-1px) rotate(0)}}@keyframes buzz-out{10%{-webkit-transform:translateX(3px) rotate(2deg);-ms-transform:translateX(3px) rotate(2deg);transform:translateX(3px) rotate(2deg)}20%{-webkit-transform:translateX(-3px) rotate(-2deg);-ms-transform:translateX(-3px) rotate(-2deg);transform:translateX(-3px) rotate(-2deg)}30%{-webkit-transform:translateX(3px) rotate(2deg);-ms-transform:translateX(3px) rotate(2deg);transform:translateX(3px) rotate(2deg)}40%{-webkit-transform:translateX(-3px) rotate(-2deg);-ms-transform:translateX(-3px) rotate(-2deg);transform:translateX(-3px) rotate(-2deg)}50%{-webkit-transform:translateX(2px) rotate(1deg);-ms-transform:translateX(2px) rotate(1deg);transform:translateX(2px) rotate(1deg)}60%{-webkit-transform:translateX(-2px) rotate(-1deg);-ms-transform:translateX(-2px) rotate(-1deg);transform:translateX(-2px) rotate(-1deg)}70%{-webkit-transform:translateX(2px) rotate(1deg);-ms-transform:translateX(2px) rotate(1deg);transform:translateX(2px) rotate(1deg)}80%{-webkit-transform:translateX(-2px) rotate(-1deg);-ms-transform:translateX(-2px) rotate(-1deg);transform:translateX(-2px) rotate(-1deg)}90%{-webkit-transform:translateX(1px) rotate(0);-ms-transform:translateX(1px) rotate(0);transform:translateX(1px) rotate(0)}100%{-webkit-transform:translateX(-1px) rotate(0);-ms-transform:translateX(-1px) rotate(0);transform:translateX(-1px) rotate(0)}}
+.buzz-out{display:inline-block;-webkit-transform:translateZ(0);-ms-transform:translateZ(0);transform:translateZ(0);box-shadow:0 0 1px transparent}
+.buzz-out:hover{-webkit-animation-name:buzz-out;animation-name:buzz-out;-webkit-animation-duration:.75s;animation-duration:.75s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:1;animation-iteration-count:1}
+
