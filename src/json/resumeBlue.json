@@ -1,169 +1,135 @@
 {
-	"resumeModule":"resumeBlue",
-	"top":{
-		"msg":[
-			["white/email.png","aaaa"],
-			["white/wechat.png","aaaa"],
-			["white/github.png","aaaa"],
-			["white/telephone.png","aaaa"],
-			["white/school.png","aaaa"]
+	"resumeModule": "resumeBlue",
+	"top": {
+		"msg": [
+			["white/email.png", "416668495@qq.com"],
+			["white/wechat.png", "dsdfsdf666"],
+			["white/github.png", "shanminlv.github"],
+			["white/telephone.png", "15666666666"],
+			["white/school.png", "华南师范大学"]
 		],
-		"name":"啊啊啊啊啊",
-		"profession":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-		"photo":"white/comunity.png"
+		"name": "温思志",
+		"profession": "前端开发工程师",
+		"photo": "white/comunity.png"
 	},
-	"left":[
-		{
-			"img":"blue/iconfont-mingpian.png",
-			"type":"moreTitle",
-			"text":"aaaa",
-			"detailImg":"blue/gift.png",
-			"english":"work Experience",
-			"item":[
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊啊啊",
-					"job":"啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊 ",
-					"date":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				}
+	"left": [{
+		"img": "blue/iconfont-mingpian.png",
+		"type": "moreTitle",
+		"text": "工作经历",
+		"detailImg": "blue/gift.png",
+		"english": "work Experience",
+		"item": [{
+			"company": "彩印獅科技",
+			"date": "2015-2016",
+			"job": "前端开发",
+			"detail": [
+				"负责公司专题网购页面的日常更新", 
+				"运用ajax、css3动画、angular.js进行专题组件的开发",
+				"使用JavaScript对旧专题模板进行开发"
 			]
-		},
-		{
-			"type":"oneTitle",
-			"img":"blue/iconfont-mingpian.png",
-			"text":"aaaa",
-			"title":"web 前端",
-			"detailImg":"blue/gift.png",
-			"english":"work Experience",
-			"item":[
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				}
+		}, {
+			"company": "来易通",
+			"date": "2015-2016",
+			"job": "销售实习生",
+			"detail": [
+				"负责组织线下推广活动",
+				"销售电话卡",
+				"维护会员"
 			]
-		}
-	],
-	"right":[
-		{
-			"img":"blue/iconfont-mingpian.png",
-			"type":"moreTitle",
-			"text":"aaaa",
-			"detailImg":"blue/gift.png",
-			"english":"work Experience",
-			"item":[
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊啊啊",
-					"job":"啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"date":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				},
-				{
-					"company":"啊啊啊啊啊啊啊啊啊啊啊啊啊 ",
-					"date":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"job":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":[
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-						"啊啊啊啊啊啊啊啊啊啊啊啊啊"
-					]
-				}
+		}, {
+			"company": "讯维有限公司",
+			"date": "2015-2016",
+			"job": "前端开发实习生",
+			"detail": [
+				"负责手机端H5的重构",
+				"编写jQuery代码"
 			]
-		},
-		{
-			"type":"oneTitle",
-			"img":"blue/iconfont-mingpian.png",
-			"text":"aaaa",
-			"title":"web 前端",
-			"detailImg":"blue/gift.png",
-			"english":"work Experience",
-			"item":[
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊","啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				},
-				{
-					"skillName":"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-					"detail":["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-				}
+		}]
+	}, {
+		"type": "oneTitle",
+		"img": "blue/iconfont-mingpian.png",
+		"text": "aaaa",
+		"title": "web 前端",
+		"detailImg": "blue/gift.png",
+		"english": "work Experience",
+		"item": [{
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}]
+	}],
+	"right": [{
+		"img": "blue/iconfont-mingpian.png",
+		"type": "moreTitle",
+		"text": "aaaa",
+		"detailImg": "blue/gift.png",
+		"english": "work Experience",
+		"item": [{
+			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"date": "啊啊啊啊啊",
+			"job": "啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"date": "啊啊啊啊啊啊啊",
+			"job": "啊啊啊",
+			"detail": [
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
 			]
-		}
-	]
+		}, {
+			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"date": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"job": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": [
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
+			]
+		}, {
+			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊 ",
+			"date": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"job": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": [
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
+				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
+			]
+		}]
+	}, {
+		"type": "oneTitle",
+		"img": "blue/iconfont-mingpian.png",
+		"text": "aaaa",
+		"title": "web 前端",
+		"detailImg": "blue/gift.png",
+		"english": "work Experience",
+		"item": [{
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}, {
+			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+		}]
+	}]
 }

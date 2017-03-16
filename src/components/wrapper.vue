@@ -108,6 +108,6 @@ import outputModule from './output'
 </script>
 <style scoped>
 	.content.resume{padding:0;margin:50px auto 0 auto;}
-	.content{width: 100%;position: relative;}
+	.content{width: 100%;position: relative;background: #ddd;}
 	.middle{width: 1000px;margin:0 auto;position: relative;z-index: 15;background-color: #fff;overflow: hidden;}
 </style>

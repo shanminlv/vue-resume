@@ -29,20 +29,20 @@
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'text')" v-html="item.text"></p>
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'anglish')" v-html="item.english"></p>
 							</div>
-							<operate :item="$store.state.resumeBlue.left" :index="index"></operate>
+							<operate :class="{hided:$store.state.isHided}":item="$store.state.resumeBlue.left" :index="index"></operate>
 						</div>
 						<div id="workList">
 							<div class="experience" v-for="(list,i) in item.item" > 
 								<div class="company" >
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'company')" v-html="list.company"></p>
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date"></p>
-									<operate :item="item.item" :index="i"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
 								</div>
 								<p class="job" contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'job')" v-html="list.job">{{list.job}}</p>
 								<div class="detailImg" v-for="(detail,j) in list.detail">
 									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
 									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
-									<operate :item="list.detail" :index="j"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
 								</div>
 							</div >
 						</div>
@@ -54,7 +54,7 @@
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'text')" v-html="item.text"></p>
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'anglish')" v-html="item.english"></p>
 							</div>
-							<operate :item="$store.state.resumeBlue.left" :index="index"></operate>
+							<operate :class="{hided:$store.state.isHided}":item="$store.state.resumeBlue.left" :index="index"></operate>
 						</div>
 						<div id="skillList">
 						<p class="skillTitle" contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'title')" v-html="item.title"></p>
@@ -63,12 +63,12 @@
 								<div class="itemTitle" >
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'skillName')" v-html="list.skillName"></p>
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date" v-if="list.date"></p>
-									<operate :item="item.item" :index="i"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
 								</div>
 								<div class="detailImg" v-for="(detail,j) in list.detail">
 									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
 									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
-									<operate :item="list.detail" :index="j"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
 								</div>
 							</div>
 						</div>
@@ -88,20 +88,20 @@
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'text')" v-html="item.text"></p>
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'anglish')" v-html="item.english"></p>
 							</div>
-							<operate :item="$store.state.resumeBlue.right" :index="index"></operate>
+							<operate :class="{hided:$store.state.isHided}":item="$store.state.resumeBlue.right" :index="index"></operate>
 						</div>
 						<div id="workList">
 							<div class="experience" v-for="(list,i) in item.item" > 
 								<div class="company" >
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'company')" v-html="list.company"></p>
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date"></p>
-									<operate :item="item.item" :index="i"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
 								</div>
 								<p class="job" contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'job')" v-html="list.job">{{list.job}}</p>
 								<div class="detailImg" v-for="(detail,j) in list.detail">
 									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
 									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
-									<operate :item="list.detail" :index="j"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
 								</div>
 							</div >
 						</div>
@@ -113,7 +113,7 @@
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'text')" v-html="item.text"></p>
 								<p contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'anglish')" v-html="item.english"></p>
 							</div>
-							<operate :item="$store.state.resumeBlue.right" :index="index"></operate>
+							<operate :class="{hided:$store.state.isHided}" :item="$store.state.resumeBlue.right" :index="index"></operate>
 						</div>
 						<div id="skillList">
 						<p class="skillTitle" contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'title')" v-html="item.title"></p>
@@ -122,12 +122,12 @@
 								<div class="itemTitle" >
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'skillName')" v-html="list.skillName"></p>
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date" v-if="list.date"></p>
-									<operate :item="item.item" :index="i"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
 								</div>
 								<div class="detailImg" v-for="(detail,j) in list.detail">
 									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
 									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
-									<operate :item="list.detail" :index="j"></operate>
+									<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
 								</div>
 							</div>
 						</div>
@@ -136,7 +136,7 @@
 				</div>
 				<addItem :target="$store.state.resumeBlue.right" :title="title"  :jsonArr="jsonArr" :bgColor="'#1296DB'"></addItem>
 		</div>
-
+</div>
 </section>
 </template>
 <script>
@@ -186,8 +186,8 @@ color:#fff;
 .personal{
 	display:table-cell;
 	vertical-align:middle;
-	width:25%;
-	padding-left:5%;
+	width:28%;
+	padding-left:2%;
 }
 .personal li{
 		height:25px;
@@ -196,6 +196,7 @@ color:#fff;
 .personal li img{
 		width:24px;
 		vertical-align: middle;
+		float: left;
 	}
 .personal li span{
 		display: none;
@@ -217,9 +218,8 @@ color:#fff;
 .personal li p{
 		line-height:25px;
 		margin-left: 15px;
-		float: right;
-		margin:0 32px 0 16px;
-		width: 128px;
+		float: left;
+		width: 170px;
 		text-align: left;
 		white-space:nowrap;
 	}

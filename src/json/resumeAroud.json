@@ -1,37 +1,37 @@
 {    
 	"resumeModule":"resumeAroud",
 	"left":{
-		"img":"me.jpg",
-		"name":"啊啊啊",
+		"img":"white/comunity.png",
+		"name":"小 明",
 		"job":"品牌策划",
 		"msg":[
-			["white/link.png","啊啊啊啊啊"],
-			["white/link.png","啊啊啊啊啊"],
-			["white/link.png","啊啊啊啊啊"],
-			["white/link.png","啊啊啊啊啊"],
-			["white/link.png","啊啊啊啊啊"],
-			["white/link.png","啊啊啊啊啊"]
+			["white/link.png","24岁"],
+			["white/link.png","上海浦东"],
+			["white/link.png","13800138000"],
+			["white/link.png","416668495@qq.com"],
+			["white/link.png","华南师范大学"],
+			["white/link.png","汉语言文学"]
 		],
 		"certificate":{
 			"title":"技能证书",
 			"list":[
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"]
+				["white/link.png","PHP工程师"],
+				["white/link.png","C++工程师"],
+				["white/link.png","MYSQL工程师"],
+				["white/link.png","前端高级工程师"],
+				["white/link.png","JAVA工程师"],
+				["white/link.png","教师资格证"]
 			]
 		},
 		"hobby":{
 			"title":"兴趣爱好",
 			"list":[
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"],
-				["white/link.png","啊啊啊啊啊"]
+				["white/link.png","篮球"],
+				["white/link.png","足球"],
+				["white/link.png","绘画"],
+				["white/link.png","诗词"],
+				["white/link.png","摄影"],
+				["white/link.png","音乐"]
 			]
 		}
 	},
@@ -39,16 +39,14 @@
 		{
 			"type":"title",
 			"img":"blue/link.png",
-			"text":"啊啊啊啊",
+			"text":"教育背景",
 			"list":[
 				{
-					"date":"2012.12.04~2014.12.12",
-					"organization":"啊啊啊啊",
-					"job":"点点滴滴",
+					"date":"2012.12.04~2016.12.12",
+					"organization":"华南师范大学",
+					"job":"信息工程",
 					"detail":[
-						"收拾收拾",
-						"点点滴滴",
-						"当地发生地方"
+						"主修课程：基本会计、统计学、市场营销、国际市场营销、市场调查与预测、商业心理学、广告学、公共关系学、货币银行学、经济法、国际贸易、大学英语、经济数学、计算机应用等。"
 					]
 				}
 			]
@@ -56,26 +54,37 @@
 		{
 			"type":"noTitle",
 			"img":"blue/link.png",
-			"text":"啊啊啊啊",
+			"text":"奖项荣誉",
 			"detail":[
-				"收拾收拾",
-				"点点滴滴",
-				"当地发生地方"
+				"第一名",
+				"品牌管理，市场营销",
+				"销售数据分析",
+				"广告创意策划"
 			]
 		},
 		{
 			"type":"title",
 			"img":"blue/link.png",
-			"text":"啊啊啊啊",
+			"text":"工作经历",
 			"list":[
 				{
 					"date":"2012.12.04~2014.12.12",
-					"organization":"啊啊啊啊",
-					"job":"点点滴滴",
+					"organization":"三六有限公司",
+					"job":"产品经理",
 					"detail":[
-						"收拾收拾",
-						"点点滴滴",
-						"当地发生地方"
+						"1、团队管理，电商产品管理，电子商务策划项目管理；",
+						"2、网站需求分析，产品设计，产品跟踪，及后续产品优化工作；",
+						"3、与研发、营销、客服配合，展开产品开发、销售、售后工作。"
+					]
+				},
+				{
+					"date":"2012.12.04~2014.12.12",
+					"organization":"彩印师有限公司",
+					"job":"CTO",
+					"detail":[
+						"1、团队管理",
+						"2、项目架构",
+						"3、与研发、营销、客服配合，展开产品开发、销售、售后工作。"
 					]
 				}
 			]
