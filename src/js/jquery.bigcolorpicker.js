@@ -149,8 +149,8 @@
 				generateBgImage();
 			}else{
 				//Ԥ����ͼƬ
+				return;
 			     var bgmage = new Image();
-			     bgmage.src = "http://ss.jiaobu365.com/home/images/big_bgcolor.jpg";
 			     
 			     //��ʼ��ΪĬ����ʽ
 				$("#bigSections").height(132).width(220).addClass("bigpicker-bgimage").empty();
