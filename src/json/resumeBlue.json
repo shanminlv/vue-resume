@@ -3,12 +3,12 @@
 	"top": {
 		"msg": [
 			["white/email.png", "416668495@qq.com"],
-			["white/wechat.png", "dsdfsdf666"],
+			["white/wechat.png", "wensizhi666"],
 			["white/github.png", "shanminlv.github"],
 			["white/telephone.png", "15666666666"],
 			["white/school.png", "华南师范大学"]
 		],
-		"name": "温思志",
+		"name": "小  明",
 		"profession": "前端开发工程师",
 		"photo": "white/comunity.png"
 	},
@@ -48,88 +48,89 @@
 	}, {
 		"type": "oneTitle",
 		"img": "blue/iconfont-mingpian.png",
-		"text": "aaaa",
+		"text": "My Skills",
 		"title": "web 前端",
 		"detailImg": "blue/gift.png",
 		"english": "work Experience",
 		"item": [{
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "JavaScript／jQuery/Bootstrap",
+			"detail": ["熟练使用JavaScript和jQuery，能模块化并封装代码。","基本会使用Bootstrap"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "AngularJS",
+			"detail":["基本会使用AngularJS的控制器、指令、服务、过滤器","运用AngularJS开发了猎萌公司网站和个人项目点滴成长webApp。"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "ReactJS",
+			"detail": ["基本会使用ReactJS的props，states等","运用ReactJS开发了时间选择插件。"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "前端工程化",
+			"detail": ["基本会gulp和webpack，并运用gulp和webpack搭建了个人项目"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "其他技能",
+			"detail": [
+						"能运用Node.js搭建服务器，并运用Node.js开发了个人项目。",
+						"简单使用过MongoDB，可以用Node.js对数据进行增减删操作。",
+						"基本会使用Photoshop设计美化图片。"
+					]
 		}]
 	}],
 	"right": [{
 		"img": "blue/iconfont-mingpian.png",
 		"type": "moreTitle",
-		"text": "aaaa",
+		"text": "项目经历",
 		"detailImg": "blue/gift.png",
-		"english": "work Experience",
+		"english": "My Project",
 		"item": [{
-			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"date": "啊啊啊啊啊",
-			"job": "啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
-		}, {
-			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"date": "啊啊啊啊啊啊啊",
-			"job": "啊啊啊",
+			"company": "成长点滴webapp",
+			"date": "2016.01",
 			"detail": [
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
+				"运用node.js实现静态资源管理、socket.io模块实现聊天功能、fs模块实现文件的操作和数据的存储。",
+				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建前端。"
 			]
 		}, {
-			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"date": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"job": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"company": "猎萌网站",
+			"date": "2016.04-2016.06",
 			"detail": [
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
+				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建公司的网站"
 			]
 		}, {
-			"company": "啊啊啊啊啊啊啊啊啊啊啊啊啊 ",
-			"date": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"job": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
+			"company": "页面代码生成器",
+			"date": "2015.12",
 			"detail": [
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊",
-				"啊啊啊啊啊啊啊啊啊啊啊啊啊"
+				"个人运用canvas、file API、拖放、开发了日常需求页面的代码生成器"
+			]
+		}, {
+			"company": "移动高级记账簿 ",
+			"date": "2015.07-2012.08",
+			"detail": [
+				"运用localStorage存储客户端的账本数据、canvas实现项目圆饼及折线数据统计图。"
 			]
 		}]
 	}, {
 		"type": "oneTitle",
 		"img": "blue/iconfont-mingpian.png",
-		"text": "aaaa",
-		"title": "web 前端",
+		"text": "校园经历",
 		"detailImg": "blue/gift.png",
-		"english": "work Experience",
+		"english": "school Experience",
 		"item": [{
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "创业学院学生助理",
+			"date":"2013.04-2015.5",
+			"detail": ["负责与校外导师联系","负责组织校企活动","参与创业课程的制定"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "创业学院学生助理",
+			"date":"2013.04-2015.5",
+			"detail": ["负责与校外导师联系","负责组织校企活动","参与创业课程的制定"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "创业学院学生助理",
+			"date":"2013.04-2015.5",
+			"detail": ["负责与校外导师联系","负责组织校企活动","参与创业课程的制定"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊", "啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "创业学院学生助理",
+			"date":"2013.04-2015.5",
+			"detail": ["负责与校外导师联系","负责组织校企活动","参与创业课程的制定"]
 		}, {
-			"skillName": "啊啊啊啊啊啊啊啊啊啊啊啊啊",
-			"detail": ["啊啊啊啊啊啊啊啊啊啊啊啊啊"]
+			"skillName": "创业学院学生助理",
+			"date":"2013.04-2015.5",
+			"detail": ["负责与校外导师联系","负责组织校企活动","参与创业课程的制定"]
 		}]
 	}]
 }

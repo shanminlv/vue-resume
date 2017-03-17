@@ -80,7 +80,7 @@ export function exportPDF(domId,js_getDPI,name) {
                 dpiY = arrDPI[1];  
             }  
             //l:横向， p：纵向；单位： in:英寸，mm毫米；画布大小：a3,a4,leter,[]（当内容为数组时，为自定义大小）  
-            var doc = new jsPDF('l', 'in', [(canWidth+10)/dpiX,(canHeight+10)/dpiY]);//设置PDF宽高为要显示的元素的宽高，将像素转化为英寸 
+            var doc = new jsPDF('p', 'in', [(canWidth+10)/dpiX,(canHeight+10)/dpiY]);//设置PDF宽高为要显示的元素的宽高，将像素转化为英寸 
             doc.addImage(imgData, 'png', 7/dpiX,5/dpiY); //写入位置：x:5, y:5 单位:英寸 
             var fileName=name?(name+".pdf"):"简历.pdf" 
             doc.save(fileName);  

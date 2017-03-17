@@ -140,7 +140,7 @@ export default{
 						"button,label{cursor:pointer}",
 						"h1,h2,h3,h4,h5,h6{font-weight:400}",
 						"img{-ms-interpolation-mode:bicubic}",
-						".clearfix:after{content:\'\';display:block;height:0;clear:both}",
+						".clearfix:after{content:\'\';display:block;height:0;clear:both}.itemTitle p:nth-child(2){float: right;line-height: 20px;}",
 						".clearfix{zoom:1}",
 						".clear{clear:both}",
 						".wordwrap{word-break:break-all;word-wrap:break-word}",
@@ -404,7 +404,7 @@ export default{
 		},
 		pdf(){
 			this.save();
-			exportPDF('resumeModule',js_getDPI);
+			exportPDF('resumeModule',js_getDPI,this.$store.state.resumeName);
 		},
 		save(){
 			let str=this.$store.state.resumeModule;

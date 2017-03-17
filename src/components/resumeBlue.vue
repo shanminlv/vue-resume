@@ -97,7 +97,6 @@
 									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date"></p>
 									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
 								</div>
-								<p class="job" contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'job')" v-html="list.job">{{list.job}}</p>
 								<div class="detailImg" v-for="(detail,j) in list.detail">
 									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
 									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
@@ -116,21 +115,20 @@
 							<operate :class="{hided:$store.state.isHided}" :item="$store.state.resumeBlue.right" :index="index"></operate>
 						</div>
 						<div id="skillList">
-						<p class="skillTitle" contenteditable="true"  @click="exportPosition($event)" @blur="changeData($event,item,'title')" v-html="item.title"></p>
-						<div id="frontEnd">
-							<div class="skills" v-for="(list,i) in item.item" > 
-								<div class="itemTitle" >
-									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'skillName')" v-html="list.skillName"></p>
-									<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date" v-if="list.date"></p>
-									<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
-								</div>
-								<div class="detailImg" v-for="(detail,j) in list.detail">
-									<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
-									<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
-									<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
+							<div id="frontEnd">
+								<div class="skills" v-for="(list,i) in item.item" > 
+									<div class="itemTitle" >
+										<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'skillName')" v-html="list.skillName"></p>
+										<p contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list,'date')" v-html="list.date" v-if="list.date"></p>
+										<operate :class="{hided:$store.state.isHided}":item="item.item" :index="i"></operate>
+									</div>
+									<div class="detailImg" v-for="(detail,j) in list.detail">
+										<img :src="item.detailImg" @click="changeImg($event,item,'detailImg')">
+										<p class="detail"  contenteditable="true" @click="exportPosition($event)" @blur="changeData($event,list.detail,j)" v-html="detail"></p>
+										<operate :class="{hided:$store.state.isHided}":item="list.detail" :index="j"></operate>
+									</div>
 								</div>
 							</div>
-						</div>
 						</div>
 					</div>
 				</div>
@@ -283,6 +281,10 @@ color:#fff;
 	overflow: hidden;
 }
 
+.experience .detailImg:nth-child(2){
+	margin-top: 8px;
+}
+
 .detailImg:after{content:'';display:block;height:0;clear:both}
 
 .skillName{
@@ -387,23 +389,24 @@ color:#fff;
 	color:#fff;
 }
 
-	.company p:first-child,.skillTitle p:first-child{
-		float: left;
-		line-height: 20px;
-	}
+.company p:first-child,.skillTitle p:first-child{
+	float: left;
+	line-height: 20px;
+}
 
-	.company p:nth-of-type(2),.skillTitle p:nth-of-type(2){
-		float: right;
-		line-height: 20px;
-	}
+.company p:nth-of-type(2),.skillTitle p:nth-of-type(2){
+	float: right;
+	line-height: 20px;
+}
 .company:after,.skillTitle:after{content:'';display:block;height:0;clear:both}
 
 .itemTitle{
 	min-height:20px;
 	color:#008080;
+	margin:5px 0;
 }
 
-.itemTitle p:nth-child{
+.itemTitle p:nth-child(2){
 	float: right;
 	line-height: 20px;
 }
@@ -423,4 +426,5 @@ color:#fff;
 .resumeBlue{padding-bottom: 20px;}
 
 
+.edit.hided{display: none!important;}
 </style>

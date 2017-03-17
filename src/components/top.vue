@@ -8,7 +8,7 @@
 export default {
   data () {
     return {
-  		myResume: '命名视图',
+  		myResume: '我的简历',
   		selectModule: '选择模板',
   	}
   },
